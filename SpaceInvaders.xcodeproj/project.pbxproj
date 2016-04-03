@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5E969EB31CB15E8B005BB975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E969EB21CB15E8B005BB975 /* AppDelegate.swift */; };
-		5E969EB51CB15E8B005BB975 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5E969EB41CB15E8B005BB975 /* GameScene.sks */; };
 		5E969EB71CB15E8B005BB975 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E969EB61CB15E8B005BB975 /* GameScene.swift */; };
 		5E969EB91CB15E8B005BB975 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E969EB81CB15E8B005BB975 /* GameViewController.swift */; };
 		5E969EBC1CB15E8B005BB975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E969EBA1CB15E8B005BB975 /* Main.storyboard */; };
@@ -16,6 +15,7 @@
 		5E969EC11CB15E8B005BB975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E969EBF1CB15E8B005BB975 /* LaunchScreen.storyboard */; };
 		5E969ECC1CB15E8B005BB975 /* SpaceInvadersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E969ECB1CB15E8B005BB975 /* SpaceInvadersTests.swift */; };
 		5E969ED71CB15E8B005BB975 /* SpaceInvadersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E969ED61CB15E8B005BB975 /* SpaceInvadersUITests.swift */; };
+		5E969EE51CB1882C005BB975 /* StartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E969EE41CB1882C005BB975 /* StartGameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		5E969EAF1CB15E8B005BB975 /* SpaceInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E969EB21CB15E8B005BB975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E969EB41CB15E8B005BB975 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		5E969EB61CB15E8B005BB975 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5E969EB81CB15E8B005BB975 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5E969EBB1CB15E8B005BB975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		5E969ED21CB15E8B005BB975 /* SpaceInvadersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceInvadersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E969ED61CB15E8B005BB975 /* SpaceInvadersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceInvadersUITests.swift; sourceTree = "<group>"; };
 		5E969ED81CB15E8B005BB975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E969EE41CB1882C005BB975 /* StartGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				5E969EB21CB15E8B005BB975 /* AppDelegate.swift */,
-				5E969EB41CB15E8B005BB975 /* GameScene.sks */,
 				5E969EB61CB15E8B005BB975 /* GameScene.swift */,
 				5E969EB81CB15E8B005BB975 /* GameViewController.swift */,
+				5E969EE41CB1882C005BB975 /* StartGameScene.swift */,
 				5E969EBA1CB15E8B005BB975 /* Main.storyboard */,
 				5E969EBD1CB15E8B005BB975 /* Assets.xcassets */,
 				5E969EBF1CB15E8B005BB975 /* LaunchScreen.storyboard */,
@@ -235,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E969EB51CB15E8B005BB975 /* GameScene.sks in Resources */,
 				5E969EC11CB15E8B005BB975 /* LaunchScreen.storyboard in Resources */,
 				5E969EBE1CB15E8B005BB975 /* Assets.xcassets in Resources */,
 				5E969EBC1CB15E8B005BB975 /* Main.storyboard in Resources */,
@@ -264,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E969EB71CB15E8B005BB975 /* GameScene.swift in Sources */,
+				5E969EE51CB1882C005BB975 /* StartGameScene.swift in Sources */,
 				5E969EB91CB15E8B005BB975 /* GameViewController.swift in Sources */,
 				5E969EB31CB15E8B005BB975 /* AppDelegate.swift in Sources */,
 			);
