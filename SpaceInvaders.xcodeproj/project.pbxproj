@@ -17,6 +17,7 @@
 		5E969ED71CB15E8B005BB975 /* SpaceInvadersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E969ED61CB15E8B005BB975 /* SpaceInvadersUITests.swift */; };
 		5E969EE51CB1882C005BB975 /* StartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E969EE41CB1882C005BB975 /* StartGameScene.swift */; };
 		5E969EF41CB18A68005BB975 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 5E969EE61CB18A68005BB975 /* images */; };
+		5E969F031CB1F4F0005BB975 /* SplashPageScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E969F021CB1F4F0005BB975 /* SplashPageScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5E969ED81CB15E8B005BB975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E969EE41CB1882C005BB975 /* StartGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameScene.swift; sourceTree = "<group>"; };
 		5E969EE61CB18A68005BB975 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../images; sourceTree = "<group>"; };
+		5E969F021CB1F4F0005BB975 /* SplashPageScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashPageScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				5E969EB61CB15E8B005BB975 /* GameScene.swift */,
 				5E969EB81CB15E8B005BB975 /* GameViewController.swift */,
 				5E969EE41CB1882C005BB975 /* StartGameScene.swift */,
+				5E969F021CB1F4F0005BB975 /* SplashPageScene.swift */,
 				5E969EBA1CB15E8B005BB975 /* Main.storyboard */,
 				5E969EBD1CB15E8B005BB975 /* Assets.xcassets */,
 				5E969EBF1CB15E8B005BB975 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E969EB71CB15E8B005BB975 /* GameScene.swift in Sources */,
+				5E969F031CB1F4F0005BB975 /* SplashPageScene.swift in Sources */,
 				5E969EE51CB1882C005BB975 /* StartGameScene.swift in Sources */,
 				5E969EB91CB15E8B005BB975 /* GameViewController.swift in Sources */,
 				5E969EB31CB15E8B005BB975 /* AppDelegate.swift in Sources */,
